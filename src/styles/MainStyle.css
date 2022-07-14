@@ -1,0 +1,14 @@
+main{
+   display: grid;
+   width: 100%;
+   
+   height: auto;
+   margin: 0 auto;
+   grid-template-columns: repeat(1,1fr);
+}
+@media (min-width: 960px) {
+    main{
+        grid-template-columns: repeat(2,1fr);
+    }
+     
+}

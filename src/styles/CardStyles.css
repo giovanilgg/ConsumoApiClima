@@ -1,0 +1,30 @@
+.card{
+
+    display: flex;
+    width: 80%;
+   
+}
+.card_imagen{
+ margin: auto 0;
+ width: 50%;
+ height: 50%;
+
+}
+.card_informacion{
+   width: 80%;
+   text-align: center;
+   margin: auto 0;
+}
+
+.card_informacion_temperatura{
+   font-size: 2.5rem;
+   text-align: center;
+}
+.card_informacion_span{
+color: rgb(239, 167, 67);
+}
+.card_informacion_min_max{
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+}
